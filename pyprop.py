@@ -80,6 +80,13 @@ def prop(func):
     fdel=ops.get('fdel',lambda self:delattr(self,name))
     return property ( fget, fset, fdel, ops.get('doc','') )
 
+def test():   
+    import doctest 
+    print('--- Using README.md file for doctest:')
+    doc = ''.join( open('README.md', 'r').readlines() )
+    prop.__doc__ = doc
+    doctest.testmod()  
+    print('--- Tests done.')
 
 if __name__=='__main__':
     
