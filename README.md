@@ -1,6 +1,6 @@
-# pyprop for Easy Property Creation in Python 
+# A function *prop()* for Easy Property Creation in Python 
 
-Presented in this recipe is a function **prop**, with that a property **myprop** can be created as simple as:
+Presented in this recipe is a function **prop()**, with that a property **myprop** can be created as simple as:
 
 ``` python
 @prop
@@ -20,6 +20,8 @@ The function contains only 7 lines of code, easy to understand, easy to customiz
 
 This code was written in 2009 in python 2.5.2, and published in ActiveState Code Recipes:
 http://code.activestate.com/recipes/576742-easy-property-creation-in-python/
+
+It still works well as of today (python 3.7).
 
 The standard procedure for creating properties for a class in python is quite tedious. We have to do this using the built-in function property:
 
