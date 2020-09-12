@@ -1,0 +1,7 @@
+README.md
+pyprop.py
+setup.py
+pyprop.egg-info/PKG-INFO
+pyprop.egg-info/SOURCES.txt
+pyprop.egg-info/dependency_links.txt
+pyprop.egg-info/top_level.txt
